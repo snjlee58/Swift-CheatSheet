@@ -831,6 +831,9 @@ An in-out parameter has a value that is passed in to the function, is modified b
 
 You may remember `inout` parameters from Objective-C where you had to sometimes pass in an `&error` parameter to certain methods, where the `&` symbol specifies that you're actually passing in a pointer to the object instead of the object itself. The same applies to Swift's `inout` parameters now as well.
 
+#### Arrays
+Append
+
 #### Calling Functions
 
 Functions are called using dot syntax: `myClass.doWork()` or `self.sayHelloToMyLilFriend("Rob Phillips")`
@@ -1202,8 +1205,15 @@ print("\(base) to the power of \(power) is \(answer)")
 // prints "3 to the power of 10 is 59049"
 ```
 
+### Typical Coding Problem
 
-#### Enumerating arrays & dictionaries
+Use astericks(*) to print a triangle with height n.
+
+```swift
+
+```
+
+## Enumerating arrays & dictionaries
 
 ```swift
 // We explicitly cast to the Movie class from AnyObject class
